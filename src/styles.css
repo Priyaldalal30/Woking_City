@@ -162,6 +162,18 @@ button:hover {
 #gallery {
   margin-top: 100px;
 }
+.city-guide-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: black;
+  grid-gap: 100px;
+}
+.about-me,
+.about-website,
+.guide {
+  background-color: #3b5998;
+  text-align: center;
+}
 .bottombar {
   margin-top: 60px;
   border-top: 1px solid #f3ae37;
