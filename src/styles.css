@@ -5,17 +5,20 @@ body {
   color: white;
 }
 header {
+  padding: 80px;
   background-image: url(../src/images/lake.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
+  height: 100%;
   text-align: center;
-  padding: 180px;
 }
 h1,
 h2,
 h3 {
   margin: 10px;
-  font-size: 90px;
+  font-size: 98px;
   line-height: 90px;
   font-weight: 800 bold;
   background-color: #f3ec78;
@@ -32,51 +35,8 @@ h3 {
   line-height: 30px;
 }
 h2 {
-  margin-bottom: 100px;
-}
-
-@media (max-width: 850px) {
-  .header {
-    padding: 100px;
-  }
-  h1 {
-    font-size: 50px;
-    line-height: 50px;
-  }
-  h2,
-  h3 {
-    font-size: 14px;
-    line-height: 14px;
-  }
-}
-@media (max-width: 450px) {
-  .header {
-    padding: 50px;
-  }
-  h1 {
-    font-size: 30px;
-    line-height: 35px;
-  }
-  h2,
-  h3 {
-    font-size: 14px;
-    line-height: 14px;
-  }
-}
-@media (max-width: 320px) {
-  .header {
-    padding: 10px;
-  }
-  h1 {
-    font-size: 25px;
-    line-height: 25px;
-  }
-  h2,
-  h3 {
-    font-size: 10px;
-    line-height: 10px;
-    font-weight: 400px;
-  }
+  margin-bottom: 300px;
+  font-size: 40px;
 }
 
 button {
@@ -86,97 +46,122 @@ button {
   padding: 8px 15px;
   font-size: 20px;
   color: white;
+  width: 170px;
 }
+
 button:hover {
   cursor: pointer;
   background-color: white;
   color: black;
 }
-.container {
-  border: 4px solid #f3ae37;
-  outline: 2px solid #cb3e7d;
-  border-radius: 5px;
-  max-width: 100%;
-  margin-top: 50px;
-  background-color: #b8bdbe6a;
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  color: black;
+  margin: 120px 60px;
+  padding: 50px;
+  outline: 1px solid #cb3e7d;
+  border: 1px solid #f3ae37;
+  outline-offset: 3px;
+  border-radius: 10px;
+  border-spacing: 3px;
+}
+.title {
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  letter-spacing: 10px;
 }
 
-.imageStyle,
-.wokingText {
-  display: block;
-  max-width: 100%;
+.subtitle {
+  text-align: center;
   color: black;
-  padding: 0px;
-  padding: 20px;
+  font-size: 18px;
 }
-.imageMap {
-  max-width: 100%;
-}
-.imageStyle {
-  padding-right: 10px;
-}
-.wokingText {
-  padding-left: 10px;
-  font-size: 17px;
-}
-.card-group {
-  margin-top: 10px;
+.main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
+  color: black;
+  margin: 50px 50px;
 }
 .card {
-  color: black;
+  outline: 1px solid #cb3e7d;
+  border: 1px solid #f3ae37;
+  outline-offset: 3px;
+  border-radius: 10px;
+  border-spacing: 3px;
+  padding: 10px;
 }
-.largerMapButton {
-  position: relative;
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.card-header {
+.image {
+  max-width: 100%;
   padding: 5px;
 }
-.card-title {
+.gb-directions {
+  background-image: url(../src/images/gail-map.png);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+.ih-directions {
+  background-image: url(../src/images/islandhouse-map.png);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+.tt-directions {
+  background-image: url(../src/images/teaterrace-map.png);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+.place-name {
+  font-size: 19px;
+  padding: 15px;
+  padding-bottom: 0;
   background-color: #f3ec78;
-  background-image: linear-gradient(#f3ae37, #cb3e7d);
+  background-image: linear-gradient(160deg, #f3ae37, #cb3e7d);
   background-size: 100%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  font-weight: bold;
-  font-size: 22px;
 }
-.footer,
-.card-footer {
+.place-text {
+  font-size: 17px;
+  padding: 15px;
+  padding-top: 0;
+}
+.moreinfo {
+  display: block;
   color: black;
   text-decoration: none;
-  text-align: center;
-  font-size: 15px;
+  padding: 15px;
 }
-.footer:hover,
-.card-footer:hover {
-  color: black;
+.moreinfo:hover {
   text-decoration: underline;
-  text-align: center;
+  color: black;
 }
-.footer {
-  border: 1px solid rgba(0, 0, 0, 0.277);
-  border-radius: 25px;
-  padding: 4px 15px;
+#gallery {
+  margin-top: 100px;
 }
-.title {
-  text-align: center;
-  letter-spacing: 10px;
-  margin-top: 60px;
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.308);
-}
-.subtitle {
-  text-align: center;
-  letter-spacing: 2px;
-  font-size: 30px;
-  color: rgb(0, 0, 0);
-}
-
 .bottombar {
   margin-top: 60px;
   border-top: 1px solid #f3ae37;
@@ -243,4 +228,47 @@ button:hover {
 }
 .githublink:hover {
   color: #682e8e;
+}
+@media (max-width: 850px) {
+  .header {
+    padding: 100px;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  h2,
+  h3 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+@media (max-width: 450px) {
+  .header {
+    padding: 50px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  h2,
+  h3 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  h2,
+  h3 {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 400px;
+  }
 }
