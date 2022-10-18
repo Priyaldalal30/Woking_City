@@ -157,15 +157,16 @@ button:hover {
 .gallerygrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  padding: 20px;
+  grid-gap: 10px;
+  padding: 50px;
   justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;
   align-items: center;
 }
 .instagram-media {
-  max-width: 100%;
+  width: 100%;
+  padding: 0;
 }
 .city-guide-grid {
   display: grid;
