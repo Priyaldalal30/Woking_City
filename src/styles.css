@@ -34,10 +34,10 @@ h3 {
 h2,
 h3 {
   font-size: 40px;
-  line-height: 30px;
+  line-height: 55px;
 }
 h2 {
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 h3 {
   margin-bottom: 30px;
@@ -266,7 +266,7 @@ ul {
 .githublink:hover {
   color: #682e8e;
 }
-@media (max-width: 1025px) {
+@media (max-width: 1180px) {
   header {
     padding: 60px;
     padding-top: 60px;
@@ -317,7 +317,7 @@ ul {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   header {
     padding: 20px;
     padding-top: 20px;
