@@ -90,6 +90,9 @@ button:hover {
   color: black;
   margin: 50px 50px;
 }
+.woking-images {
+  width: 100%;
+}
 .card {
   outline: 1px solid #cb3e7d;
   border: 1px solid #f3ae37;
@@ -152,15 +155,6 @@ button:hover {
 }
 #gallery {
   margin-top: 100px;
-}
-
-.woking-images {
-  width: 100%;
-  margin: 120px 80px;
-}
-.table,
-.tbody {
-  width: 100%;
 }
 .instagram-media {
   width: 100%;
