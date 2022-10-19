@@ -63,7 +63,7 @@ button:hover {
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   color: black;
-  margin: 120px 80px;
+  margin: 80px;
   padding: 30px;
   outline: 1px solid #cb3e7d;
   border: 1px solid #f3ae37;
@@ -155,7 +155,7 @@ button:hover {
   color: black;
 }
 #gallery {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .instagram-media {
   width: 100%;
