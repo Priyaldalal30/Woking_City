@@ -313,6 +313,10 @@ ul {
   .city-guide-grid {
     grid-template-columns: 1fr 1fr;
   }
+  .woking-images {
+    width: 100%;
+    padding: 0px;
+  }
 }
 @media (max-width: 600px) {
   h1,
@@ -363,5 +367,9 @@ ul {
   }
   ul {
     padding: 10px;
+  }
+  .woking-images {
+    width: 100%;
+    padding: 0px;
   }
 }
