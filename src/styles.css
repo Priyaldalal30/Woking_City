@@ -153,7 +153,8 @@ button:hover {
 #gallery {
   margin-top: 100px;
 }
-.woking-images {
+.woking-images,
+table {
   width: 100%;
   margin: 120px 80px;
   padding: 30px;
