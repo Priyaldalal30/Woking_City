@@ -90,7 +90,6 @@ button:hover {
   color: black;
   margin: 50px 50px;
 }
-
 .card {
   outline: 1px solid #cb3e7d;
   border: 1px solid #f3ae37;
@@ -154,16 +153,7 @@ button:hover {
 #gallery {
   margin-top: 100px;
 }
-.gallerygrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  padding: 50px;
-  justify-content: space-evenly;
-  justify-items: center;
-  align-content: space-evenly;
-  align-items: center;
-}
+
 .instagram-media {
   width: 100%;
   padding: 0;
@@ -267,6 +257,7 @@ ul {
 .githublink:hover {
   color: #682e8e;
 }
+
 @media (max-width: 1180px) {
   header {
     padding: 60px;
@@ -278,17 +269,16 @@ ul {
   h1 {
     font-size: 70px;
   }
-  .gallerygrid {
-    grid-gap: 5px;
-    padding: 5px;
-  }
   .card {
     padding: 5px;
   }
   .main-grid {
-    grid-gap: 20px;
+    grid-gap: 10px;
     color: black;
-    margin: 20px 20px;
+    margin: 10px 10px;
+  }
+  #insta-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (max-width: 820px) {
@@ -305,14 +295,17 @@ ul {
   .card {
     padding: 3px;
   }
+  .about-grid {
+    margin: 30px 20px;
+    padding: 20px;
+  }
   .main-grid {
     grid-gap: 10px;
     color: black;
     margin: 10px 10px;
   }
-  .gallerygrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  #insta-grid {
+    grid-template-columns: 1fr;
   }
   .city-guide-grid {
     grid-template-columns: 1fr 1fr;
@@ -356,18 +349,10 @@ ul {
     grid-template-columns: 1fr;
     color: black;
     margin: 10px 10px;
+    grid-gap: 10px;
   }
   .card {
     padding: 3px;
-  }
-  .main-grid {
-    grid-gap: 10px;
-    color: black;
-    margin: 10px 10px;
-  }
-  .gallerygrid {
-    display: grid;
-    grid-template-columns: 1fr;
   }
   .city-guide-grid {
     grid-template-columns: 1fr;
