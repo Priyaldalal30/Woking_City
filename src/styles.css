@@ -157,7 +157,9 @@ button:hover {
 .woking-images {
   width: 100%;
   margin: 120px 80px;
-  padding: 30px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
 }
 .instagram-media {
   width: 100%;
