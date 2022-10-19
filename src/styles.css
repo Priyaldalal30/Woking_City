@@ -91,8 +91,9 @@ button:hover {
   margin: 50px 50px;
 }
 .woking-images {
-  width: 50%;
+  width: 10%;
   padding: 20px;
+  margin: 50px 50px;
 }
 .card {
   outline: 1px solid #cb3e7d;
