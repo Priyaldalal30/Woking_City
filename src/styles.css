@@ -161,6 +161,10 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
+.table,
+.tbody {
+  width: 100%;
+}
 .instagram-media {
   width: 100%;
   padding: 0;
