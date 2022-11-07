@@ -227,7 +227,7 @@ ul {
 
 .netlifyLink,
 .priyal {
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
 }
 .netlifyLink:hover,
